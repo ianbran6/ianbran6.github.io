@@ -20,7 +20,7 @@ float:left;
 
 .nav{
     border:0.5px solid #ccc;
-    border-width:0.5px 0;
+    border-width:0px 0;
     list-style:none;
     margin:0;
     padding:0;
@@ -28,19 +28,24 @@ float:left;
 }
 .nav li{
     display:inline;
+	font-size:24px;
+	font-weight:normal;
+}
+
+h1{
+font-size: 36px;
 }
 
 a:link,a:visited
 {
 padding:10px;
-width:200px;
+width:250px;
 height:50px;
-font-weight:bold;
+font-weight:normal;
 color:#FFFFFF;
 background-color:#0D5686;
 text-align:center;
 text-decoration:none;
-text-transform:uppercase;
 }
 
 div{
