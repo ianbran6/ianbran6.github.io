@@ -36,11 +36,15 @@ h1{
 font-size: 36px;
 }
 
+h4{
+font-weight:normal;
+}
+
 a:link,a:visited
 {
 padding:10px;
 width:250px;
-height:50px;
+height:40px;
 font-weight:normal;
 color:#FFFFFF;
 background-color:#0D5686;
@@ -60,7 +64,15 @@ background-color:#4186D3;
 .writing li a{
 text-decoration:none;
 background-color:#FFFFFF;
-color:#000000;
+color:#4186D3;
+padding:0px;
+}
+
+#content p a{
+text-decoration:none;
+background-color:#FFFFFF;
+color:#4186D3;
+padding:0px;
 }
 
 #TFM a{
